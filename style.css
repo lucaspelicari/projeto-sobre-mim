@@ -66,6 +66,7 @@ h1 {
 p {
     font-size: 1.5rem;
     font-family: "Montserrat", sans-serif;
+    text-align: justify;
 }
 
 .link {
