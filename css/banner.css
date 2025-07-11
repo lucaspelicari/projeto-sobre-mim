@@ -1,0 +1,34 @@
+.banner {
+    background: var(--cor-terciaria);
+    color: black;
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+.banner > h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.banner > p {
+    font-weight: 500;
+    margin: 1em 0;
+    text-align: center;
+}
+
+
+@media screen and (min-width:1024px) {
+
+    .banner > h2 {
+        font-size: 36px;
+    }
+
+
+}
+
+@media screen and (min-width: 1728px) {
+
+    .banner {
+        padding: 3em 0;
+    }
+}
